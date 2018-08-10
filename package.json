@@ -1,23 +1,19 @@
 {
   "name": "t2erd",
   "description": "Text 2 ER Diagram",
-  "version": "0.1.1",
-  "main": "./src/t2erd.js",
+  "version": "0.1.0",
+  "main": "./src/t2erd-png.js",
   "bin": {
-    "t2erd": "./src/t2erd.js"
+    "t2erd-png": "./src/t2erd-png.js"
   },
   "scripts": {
-    "start": "node --inspect=3001 ./src/t2erd.js -i=test/resources/diagram.erd -o=diagram.png",
+    "start": "node --inspect=3001 ./src/t2erd-png.js -i=test/resources/diagram.erd -o=diagram.png",
     "test": "mocha"
   },
-  "repository": "https://github.com/dosaki/t2erd",
+  "repository": "https://github.com/dosaki/t2erd-png",
   "dependencies": {
-    "deepmerge": "^2.1.0",
-    "minimist": "^1.2.0",
-    "string-pixel-width": "^1.5.0",
-    "svg-builder": "^1.0.0",
+    "t2erd": "^0.1.3",
     "svg-to-img": "^2.0.7",
-    "uuid": "^3.2.1"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
