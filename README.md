@@ -28,7 +28,7 @@ t2erd -i=/path/to/input.erd -o=/path/to/ouput.png
 ```
 
 ## Library
-Please see [t2erd](https://github.com/dosaki/t2erd-png) instead.
+Please see [t2erd](https://github.com/dosaki/t2erd) instead.
 
 # Syntax
-See Syntax on [t2erd](https://github.com/dosaki/t2erd-png) instead.
+See Syntax on [t2erd](https://github.com/dosaki/t2erd) instead.
