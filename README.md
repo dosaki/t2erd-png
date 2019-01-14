@@ -17,7 +17,7 @@ As a CLI tool, it automatically converts the ERD into an SVG and then into a PNG
 ### From source
 ```
 git clone https://github.com/dosaki/t2erd
-node ./t2erd/src/t2erd.js -i=/path/to/input.erd -o=/path/to/ouput.png
+node ./t2erd/src/t2erd.js -i /path/to/input.erd -o /path/to/ouput.png
 ```
 
 ### Form NPM
